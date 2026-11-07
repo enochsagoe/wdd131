@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Album | Enoch | WDD 131</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Mobile-first: base styles first, larger-view styles second -->
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-large.css" media="screen and (min-width: 768px)">
+
+  <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h2 class="site-title">Temple Album</h2>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">&#9776;</button>
+
+    <nav id="main-nav">
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Old</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Large</a></li>
+        <li><a href="#">Small</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+
+    <div class="gallery">
+      <figure>
+        <img src="img/ghana_temple" alt="Temple in Accra, Ghana under a blue sky" loading="lazy">
+        <figcaption>Accra Ghana</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/rome_temple" alt="Temple in Rome, Italy surrounded by green lawns" loading="lazy">
+        <figcaption>Rome Italy</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/tokyo_temple" alt="Temple in Tokyo, Japan at dusk" loading="lazy">
+        <figcaption>Tokyo Japan</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/seoul_temple" alt="Temple in Seoul, Korea with reflecting pool" loading="lazy">
+        <figcaption>Seoul Korea</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/sao_paulo_temple" alt="Temple in Sao Paulo, Brazil on a hill" loading="lazy">
+        <figcaption>Sao Paulo Brazil</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/hong_kong_temple" alt="Temple in Hong Kong with mountains behind" loading="lazy">
+        <figcaption>Hong Kong China</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/oakland_temple" alt="Temple in Oakland, California with trees" loading="lazy">
+        <figcaption>Oakland California</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/saltlake_temple" alt="Temple in Salt Lake City, Utah in winter" loading="lazy">
+        <figcaption>Salt Lake City Utah</figcaption>
+      </figure>
+
+      <figure>
+        <img src="img/kyiv_temple" alt="Temple in Kyiv, Ukraine at sunrise" loading="lazy">
+        <figcaption>Kyiv Ukraine</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="year"></span> Enoch &#127800; Ghana</p>
+    <p>Last Modification: <span id="modified"></span></p>
+  </footer>
+</body>
+</html>
