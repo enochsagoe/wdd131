@@ -3,6 +3,7 @@
   --purple-light: #5b21b6;
   --ink: #1f1f1f;
   --white: #ffffff;
+  --line: #ffffff33;
 }
 
 * {
@@ -69,17 +70,22 @@ body {
   color: var(--white);
   text-decoration: none;
   font-weight: 700;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid var(--line);
   transition: background-color 0.2s ease;
 }
 
-.nav-menu a:hover,
-.nav-menu a:focus-visible {
+.nav-menu a:hover {
   background: var(--purple-light);
 }
 
-.menu-toggle:focus-visible,
+/* One focus rule per element, so the outline and background stay together */
+.menu-toggle:focus-visible {
+  outline: 3px solid var(--white);
+  outline-offset: 2px;
+}
+
 .nav-menu a:focus-visible {
+  background: var(--purple-light);
   outline: 3px solid var(--white);
   outline-offset: 2px;
 }
