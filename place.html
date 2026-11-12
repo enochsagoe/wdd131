@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madagascar | Enoch | WDD 131</title>
+  <meta name="description" content="A country page about Madagascar with its key facts, current weather, and a responsive hero image, built for WDD 131.">
+  <meta name="author" content="Enoch Sagoe">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="place-title">Madagascar</h1>
+  </header>
+
+  <main class="place-page">
+    <picture class="hero">
+      <source media="(min-width: 768px)" srcset="images/madagascar-large.webp" type="image/webp">
+      <img src="images/madagascar-small.webp" srcset="images/madagascar-small.webp" width="600" height="800" alt="Ring-tailed lemurs sitting on a log in a Madagascar forest">
+    </picture>
+
+    <section class="card data-card" aria-labelledby="data-heading">
+      <h2 id="data-heading">Data</h2>
+      <dl>
+        <dt>Area:</dt>
+        <dd>587,041 sq km</dd>
+        <dt>Population:</dt>
+        <dd>27,691,018</dd>
+        <dt>Capital:</dt>
+        <dd>Antananarivo</dd>
+        <dt>Languages:</dt>
+        <dd>Malagasy, French</dd>
+        <dt>Currency:</dt>
+        <dd>Malagasy Ariary</dd>
+        <dt>Time Zone:</dt>
+        <dd>UTC+3</dd>
+        <dt>Calling Code:</dt>
+        <dd>+261</dd>
+        <dt>Internet TLD:</dt>
+        <dd>.mg</dd>
+      </dl>
+    </section>
+
+    <section class="card weather-card" aria-labelledby="weather-heading">
+      <h2 id="weather-heading" class="weather-heading">Weather</h2>
+      <img class="weather-icon" src="images/weather-partly-cloudy.svg" width="96" height="96" alt="Partly cloudy">
+      <dl>
+        <dt>Temperature:</dt>
+        <dd id="temp-value">10 °C</dd>
+        <dt>Conditions:</dt>
+        <dd>Partly Cloudy</dd>
+        <dt>Wind:</dt>
+        <dd id="wind-value">5 km/h</dd>
+        <dt>Wind Chill:</dt>
+        <dd id="wind-chill">N/A</dd>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Enoch &#127800; Ghana</p>
+    <p>Last Modification: <span id="modified"></span></p>
+  </footer>
+</body>
+</html>
