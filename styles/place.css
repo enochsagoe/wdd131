@@ -40,7 +40,9 @@ body {
   font-size: 2rem;
 }
 
-.star {
+/* Decorative black star after the title, added with CSS */
+.place-title::after {
+  content: " \2605";
   color: var(--black);
 }
 
