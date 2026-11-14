@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('modified').textContent = document.lastModified;
 
   // Static weather values (real-time data comes in a later course)
-  const temperatureC = 10;
-  const windSpeedKmh = 5;
+  const temperatureC = 30;
+  const windSpeedKmh = 12;
 
   document.getElementById('temp-value').textContent = `${temperatureC} °C`;
   document.getElementById('wind-value').textContent = `${windSpeedKmh} km/h`;
