@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temples | Temple Picture Album</title>
+    <meta name="description"
+        content="A picture album of temples around the world that you can filter by age and size.">
+    <meta name="author" content="Enoch Sagoe">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Picture Album</h1>
+        <nav aria-label="Main">
+            <ul>
+                <li><a href="#" data-filter="home" aria-current="page">Home</a></li>
+                <li><a href="#" data-filter="old">Old</a></li>
+                <li><a href="#" data-filter="new">New</a></li>
+                <li><a href="#" data-filter="large">Large</a></li>
+                <li><a href="#" data-filter="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="filter-title">All Temples</h2>
+        <div id="temple-cards" class="gallery"></div>
+    </main>
+
+    <footer>
+        <p>© <span id="currentyear"></span> Enoch Sagoe</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
