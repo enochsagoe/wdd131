@@ -26,7 +26,7 @@ const temples = [
     {
         templeName: "Yigo Guam",
         location: "Yigo, Guam",
-        dedicated: "2020, May, 2",
+        dedicated: "2020, May, 22",
         area: 6861,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
@@ -42,8 +42,8 @@ const temples = [
     {
         templeName: "Lima Perú",
         location: "Lima, Perú",
-        dedicated: "1986, January, 11",
-        area: 17500,
+        dedicated: "1986, January, 10",
+        area: 9600,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
     },
