@@ -42,8 +42,8 @@ const temples = [
     {
         templeName: "Lima Perú",
         location: "Lima, Perú",
-        dedicated: "1986, January, 10",
-        area: 9600,
+        dedicated: "1986, January, 11",
+        area: 17500,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
     },
@@ -60,22 +60,25 @@ const temples = [
         templeName: "Salt Lake Utah",
         location: "Salt Lake City, Utah, United States",
         dedicated: "1893, April, 6",
-        area: 253015,
-        imageUrl: "PASTE_IMAGE_ADDRESS_HERE"
+        area: 382207,
+        imageUrl:
+            "https://imgs.search.brave.com/ANoQ1jC2I3G62V8eHJsKCFS4-P-zM9LAbUL-E2QPHF0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzg3LzUzLzg3/LzM2MF9GXzE4NzUz/ODczOV9hTE5WR1dW/UFpkMWFQQlg5RzNo/S1hoWXlzQnhuQjFk/Yi5qcGcE"
     },
     {
         templeName: "Accra Ghana",
         location: "Accra, Ghana",
         dedicated: "2004, January, 11",
         area: 17500,
-        imageUrl: "PASTE_IMAGE_ADDRESS_HERE"
+        imageUrl: 
+            "https://imgs.search.brave.com/27mB5BYkpyyJMIBYqdNOH1CSrL6qkV_OdWr0r7yPZEE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90ZW1w/bGVzLm9yZy9fdmVy/Y2VsL2ltYWdlP3Vy/bD0vdGVtcGxlcy9n/aGFuYS9hY2NyYS1n/aGFuYS10ZW1wbGUv/Z2FsbGVyeS9oZXJv/LmpwZyZ3PTEwODAm/cT03NQ"
     },
     {
         templeName: "Rome Italy",
         location: "Rome, Italy",
         dedicated: "2019, March, 10",
         area: 41010,
-        imageUrl: "PASTE_IMAGE_ADDRESS_HERE"
+        imageUrl: 
+            "https://imgs.search.brave.com/3-ED7-4--EZ3TzveNw_UKq6CTEA-wr8NZxp3KbByOgw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dGhlY2h1cmNobmV3/cy5jb20vcmVzaXpl/ci92Mi9PTFVIRlZB/QU9DQVNGUEg0NlpW/SVlKUEZSVS5qcGc_/YXV0aD1jZWQ1OGI0/OTUwOTMyNmY3Zjc4/NDAxMDRhNTE2MTAw/MTYyZTI2MDM0NDMx/ZDU3MjNjZWM2YjA5/MmRhOTZmZWNkJmZv/Y2FsPTAsMCZ3aWR0/aD04NDAmaGVpZ2h0/PTU1NQ"
     }
 ];
 
