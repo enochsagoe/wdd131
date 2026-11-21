@@ -62,7 +62,7 @@ const temples = [
         dedicated: "1893, April, 6",
         area: 382207,
         imageUrl:
-            "https://imgs.search.brave.com/ANoQ1jC2I3G62V8eHJsKCFS4-P-zM9LAbUL-E2QPHF0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzg3LzUzLzg3/LzM2MF9GXzE4NzUz/ODczOV9hTE5WR1dW/UFpkMWFQQlg5RzNo/S1hoWXlzQnhuQjFk/Yi5qcGcE"
+            "https://imgs.search.brave.com/dPeJ7azzIShh7VVTJRYBoqPFTpjAMJ3iK4Z9lzhGCCA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjI4/OTI1MTc2OC9waG90/by90aGUtc2FsdC1s/YWtlLXRlbXBsZS1z/dGFuZHMtbWFqZXN0/aWNhbGx5LWluLXRl/bXBsZS1zcXVhcmUt/aW4tc2FsdC1sYWtl/LWNpdHktdXRhaC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/LV9KMF9oTnk3ald6/Y2tNbHk1WVhoZDBz/ejRMR3lXbWFUajli/X1M4QWRiMD0"
     },
     {
         templeName: "Accra Ghana",
